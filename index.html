@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Calling</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Video Calling</h1>
+    <div>
+        <p> Your ID: <span id="callerId"></span></p>
+        <video id="localVideo" autoplay playsinline></video>
+        <video id="remoteVideo" autoplay playsinline></video>
+    </div>
+    <div>
+        <button id="startCallButton">Start Call</button>
+        <button id="endCallButton">End Call</button>
+        <button id="MuteButton">Mute Mic</button>
+        <button id="Camera">Camera</button>
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/peerjs@1.3.2/dist/peerjs.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+
+
