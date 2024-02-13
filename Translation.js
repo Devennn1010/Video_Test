@@ -91,4 +91,9 @@ function displayTranslatedText(text) {
     const outputText = document.getElementById('outputText');
     outputText.value = text;
 }
+// Showing caller ID to be shared with each other
+peer.on('open', () => {
+    const callerIdElement = document.getElementById('callerId');
+    callerIdElement.textContent = peer.id;
+});
 
