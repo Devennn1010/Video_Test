@@ -25,3 +25,14 @@ button {
     font-size: 16px;
     margin: 0 5px;
 }
+
+#chat-container {
+    width: 500px;
+    height: 350px;
+    border: 1px solid #ab2d2d;
+    overflow-y: scroll;
+    margin: 20px auto; /* Modify this to manipulate the location of the box*/
+    padding: 10px;
+}
+
+
