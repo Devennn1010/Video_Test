@@ -23,33 +23,19 @@
     <div>
         <label for="Source_Language">Source Language:</label>
         <select id="Source_Language">
-        <option value="en">English</option>
-         <option value="bn">Bengali </option>
-         <option value="fil">Filipino </option>
-         <option value="hi">Hindi </option>
-         <option value="id">Indonesian </option>
-         <option value="ja">Japanese </option>
-         <option value="ms">Malay </option>
-         <option value="zh-CN">Chinese (s) </option>
-         <option value="zh-TW">Chinese (t) </option>
-         <option value="ta">Tamil </option>
-         <option value="fr">French </option>  
+            <option value="en">English</option>
+            <option value="es">Spanish</option>
+            <option value="fr">French</option>
+            <option value="de">German</option>
         </select>
     </div>
     <div>
         <label for="Target_Language">Target Language:</label>
         <select id="Target_Language">
             <option value="en">English</option>
-         <option value="bn">Bengali </option>
-         <option value="fil">Filipino </option>
-         <option value="hi">Hindi </option>
-         <option value="id">Indonesian </option>
-         <option value="ja">Japanese </option>
-         <option value="ms">Malay </option>
-         <option value="zh-CN">Chinese (s) </option>
-         <option value="zh-TW">Chinese (t) </option>
-         <option value="ta">Tamil </option>
-         <option value="fr">French </option>  
+            <option value="es">Spanish</option>
+            <option value="fr">French</option>
+            <option value="de">German</option>
         </select>
     </div>
     <div id="chat-container">
@@ -63,7 +49,7 @@
         var Camera_Button = document.getElementById('Camera_Button');
         var Mute_Button = document.getElementById('Mute_Button');
         var Translate_Button = document.getElementById('Translate_Button');
-        const apiKey = 'AIzaSyB144WQqPzNPLeghXUstDGXbVsYz4saeg4';
+        const apiKey = 'AIzaSyB144WQqPzNPLeghXUstDGXbVsYz4saeg4';//API_translate
         let dataConnection; 
 
         peer.on('open', () => {
@@ -202,6 +188,10 @@
                 console.error('Translation error:', error);
             });
         }
+    </script>
+</body>
+</html>
+
     </script>
 </body>
 </html>
