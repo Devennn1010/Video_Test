@@ -5,6 +5,7 @@
         var Camera_Button = document.getElementById('Camera_Button');
         var Mute_Button = document.getElementById('Mute_Button');
         var Translate_Button = document.getElementById('Translate_Button');
+        const apiKey = 'AIzaSyB144WQqPzNPLeghXUstDGXbVsYz4saeg4'
         let dataConnection; 
 
         peer.on('open', () => {
